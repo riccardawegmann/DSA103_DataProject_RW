@@ -1,5 +1,6 @@
 # DSA103_DataProject_RW
 Data Project on " Leaf metabolic traits reveal hidden dimensions of plant form and function" for DSA103
 
-
-In this Project I will replicate the derive_chemistry.R function with the data set[mtbs_tropical_annotations.tsv](https://datadryad.org/dataset/doi:10.5061/dryad.zpc866tdn) in Python instead of R from [Walker et al](<data/Walker et al. - 2023 - Leaf metabolic traits reveal hidden dimensions of plant form and function.pdf>). The step by step procedure can be followed in derive_chemistry.ipynb
+In this project, I replicated the [derive_chemistry.R](scripts/derive_chemistry.R) workflow using Python, applying it to the dataset [mtbs_tropical_annotations.tsv](https://datadryad.org/dataset/doi:10.5061/dryad.zpc866tdn). This dataset originates from [Walker et al (2023)](<data/Walker et al. - 2023 - Leaf metabolic traits reveal hidden dimensions of plant form and function.pdf>),“Leaf metabolic traits reveal hidden dimensions of plant form and function.”
+The full step-by-step implementation is documented in the Jupyter notebook [derive_chemistry.ipynb](/Users/riccarda/Desktop/DSA103_DataProject_RW/scripts/derive_chemistry.ipyn).
+Using the resulting output file [classifier_pathway.csv](scripts/classifier_pathway.csv), I then performed a principal component analysis (PCA) to explore how chemical descriptors distribute across metabolic pathway classes, which can also be followed in my [PCA.ipynb](scripts/PCA.ipynb)
